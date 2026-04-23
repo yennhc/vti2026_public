@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #1. Install openSSH server
-sudo apt install -y openssh-server
+sudo apt update && sudo apt install -y openssh-server
 
 #2. Generate key pair
 ssh-key-gen -t rsa -b 4096
