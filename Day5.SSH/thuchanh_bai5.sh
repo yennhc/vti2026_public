@@ -4,7 +4,7 @@
 sudo apt update && sudo apt install -y openssh-server
 
 #2. Generate key pair
-ssh-key-gen -t rsa -b 4096
+ssh-keygen -t rsa -b 4096
 
 #Check key pair
 ls -l ~/.ssh
